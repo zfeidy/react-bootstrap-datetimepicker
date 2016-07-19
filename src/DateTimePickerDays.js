@@ -82,19 +82,19 @@ export default class DateTimePickerDays extends Component {
             </tr>
 
             <tr>
-              <th className="dow">{moment.weekdaysShort()[0]}</th>
+              <th className="dow">{moment.weekdaysMin()[0]}</th>
 
-              <th className="dow">{moment.weekdaysShort()[1]}</th>
+              <th className="dow">{moment.weekdaysMin()[1]}</th>
 
-              <th className="dow">{moment.weekdaysShort()[2]}</th>
+              <th className="dow">{moment.weekdaysMin()[2]}</th>
 
-              <th className="dow">{moment.weekdaysShort()[3]}</th>
+              <th className="dow">{moment.weekdaysMin()[3]}</th>
 
-              <th className="dow">{moment.weekdaysShort()[4]}</th>
+              <th className="dow">{moment.weekdaysMin()[4]}</th>
 
-              <th className="dow">{moment.weekdaysShort()[5]}</th>
+              <th className="dow">{moment.weekdaysMin()[5]}</th>
 
-              <th className="dow">{moment.weekdaysShort()[6]}</th>
+              <th className="dow">{moment.weekdaysMin()[6]}</th>
             </tr>
           </thead>
 
